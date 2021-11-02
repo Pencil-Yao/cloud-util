@@ -3,6 +3,8 @@ name = "cloud-util"
 version = "0.1.0"
 authors = ["ypf <yuitta@163.com>", "Rivtower Technologies <contact@rivtower.com>"]
 edition = "2018"
+license = "Apache-2.0"
+description = "cita-cloud utility library"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -10,9 +12,9 @@ edition = "2018"
 log = "0.4"
 prost = "0.8"
 tonic = "0.5"
-cita_cloud_proto = { git = "https://github.com/cita-cloud/cita_cloud_proto", branch = "wip-7.0.0-dev" }
-status_code = { git = "https://github.com/cita-cloud/status_code" }
-toml = "0.5.8"
+cita_cloud_proto = "6.3"
+status_code = { package = "cloud-code", version = "0.1" }
+toml = "0.5"
 
 [dev-dependencies]
 serde = { version = "1.0", features = ["derive"] }
