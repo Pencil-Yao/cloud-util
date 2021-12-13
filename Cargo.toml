@@ -12,7 +12,7 @@ description = "cita-cloud utility library"
 log = "0.4"
 prost = "0.8"
 tonic = "0.5"
-cita_cloud_proto = "6.3"
+cita_cloud_proto = "=6.3"
 status_code = { package = "cloud-code", version = "0.1" }
 toml = "0.5"
 
